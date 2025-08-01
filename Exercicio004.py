@@ -4,7 +4,7 @@ depositar = int(input('Informe o valor:'))
 
 sacar = int(input('Informe o valor:'))
 
-saldo_atual = depositar - sacar
+saldo_atual = depositar +(- sacar)
 
 print(saldo_atual)
 
